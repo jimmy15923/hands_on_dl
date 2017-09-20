@@ -20,11 +20,10 @@ python mnist_mlp.py
 + 若能成功執行，表示安裝成功。
 
 
-```
-+ 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: cmchang@iis.sinica.edu.tw。先謝謝大家的海涵，希望各位能在 9/22 上課前完成安裝流程，謝謝！
++ 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: jimmy15923@iis.sinica.edu.tw。先謝謝大家的海涵，希望各位能在 9/27 上課前完成安裝流程，謝謝！
 
 ## 下載程式、投影片
-1. 請於 9/22 上課前至 https://goo.gl/UmVMMZ 下載所需的程式碼與投影片。
+1. 請於 9/27 上課前至 https://goo.gl/UmVMMZ 下載所需的程式碼與投影片。
 2. 課前也會將最新版本更新到 [slideshare](http://www.slideshare.net/tw_dsconf/ss-70083878)。
 
 ## (optional) 安裝運算加速庫
