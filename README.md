@@ -1,7 +1,9 @@
 # 快速上手深度學習實務
 ## 課前準備: 安裝所需套件
-請參考[此網址](http://tensorflowkeras.blogspot.tw/2017/08/tensorflowkeraswindows_29.html?m=1) 完成所有安裝步驟:
+請參考[此網址](http://tensorflowkeras.blogspot.tw/2017/08/tensorflowkeraswindows_29.html?m=1) 完成以下所有安裝步驟:
+```
 下載/安裝 Anaconda (已包含 python 及許多套件) → 建立虛擬環境 → 安裝 tensorflow → 安裝 keras → 執行範例程式
+```
 
 0. [Anaconda 下載網址](https://www.anaconda.com/download/)，建議下載 3.6 版本
 1. 打開 CMD，以下 code 建立虛擬環境
