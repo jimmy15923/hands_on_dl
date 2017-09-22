@@ -2,39 +2,40 @@
 ## 課前準備: 安裝所需套件
 請參考[此網址](http://tensorflowkeras.blogspot.tw/2017/08/tensorflowkeraswindows_29.html?m=1) 完成以下所有安裝步驟:
 ```
-下載/安裝 Anaconda (已包含 python 及許多套件) → 建立虛擬環境 → 安裝 tensorflow → 安裝 keras → 執行範例程式
+0 下載/安裝 Anaconda (已包含 python 及許多套件) → 1 建立虛擬環境 →  2 安裝 tensorflow, keras → 3 執行範例程式
 ```
 
 0. [Anaconda 下載網址](https://www.anaconda.com/download/)，建議下載 3.6 版本
-1. 打開 CMD，以下 code 建立虛擬環境
+1. 打開 CMD，輸入以下 code 建立名稱為 myenv 的虛擬環境 (名稱可自行設定喜歡的)
 ```
 conda create --name myenv python=3.5 anaconda
 ```
-2. 建立完成後，輸入 acitvate myenv 啟動虛擬環境，並按照順序安裝 tensorflow 及 keras
+2. 建立完成後，輸入 acitvate myenv 啟動虛擬環境，並安裝 tensorflow 及 keras
 ```
 pip install tensorflow 
 pip install keras
 ```
-3. 下載 https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py 這份範例程式並執行測試。
+3. 下載 https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py 這份範例程式並輸入以下的 code 執行測試。
 ```python
 python mnist_mlp.py
 ```
 + 若能成功執行，表示安裝成功。
 
-
-+ 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: jimmy15923@iis.sinica.edu.tw。先謝謝大家的海涵，希望各位能在 9/27 上課前完成安裝流程，謝謝！
-
-## 下載程式、投影片及資料
+## 課前準備: 下載程式、投影片及資料
 資料：
-執行以下的 code，會自動下載 CIFAR10 的資料
+執行以下的 code，會自動下載 CIFAR10 的圖片資料 (因檔案較大，請在 9/27 上課前先行下載)
 ```python
 from keras.datasets import cifar10
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 ```
 程式：
+
 TBA
 投影片：
+
 TBA
+
++ 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: jimmy15923@iis.sinica.edu.tw。先謝謝大家的海涵，希望各位能在 9/27 上課前完成安裝流程，謝謝！
 
 ## (optional) 安裝運算加速庫
 1. 下載並執行 https://github.com/tw-cmchang/hand-on-dl/blob/master/checkblas.py 測試是否有安裝運算加速庫。
@@ -42,7 +43,7 @@ TBA
 3. 安裝 openblas，請依 https://github.com/tw-cmchang/hand-on-dl/blob/master/openblas_installation.pdf 。
 4. 另外，若需要安裝 openblas 可至 https://drive.google.com/drive/folders/0ByfnsehogjWtbndTY3JncE95bjQ 下載 (謝謝 Chih-Fan)。
 
-## (optional) GPU 安裝 (train CNN 必須有 GPU 才能跑的快，需要新型的 NVIDIA 顯示卡，至少 GTX 650)
+## (optional) GPU 安裝 (train CNN 必須有 GPU 才能加速，需要新型的 NVIDIA 顯示卡，至少 GTX 650)
 若要使用 GPU 來訓練模型，必須完成以下步驟
 1. 安裝 gpu 版本的 tensorflow
 2. 安裝 CUDA
