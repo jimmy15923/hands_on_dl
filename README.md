@@ -33,8 +33,13 @@ TBA
 3. 安裝 openblas，請依 https://github.com/tw-cmchang/hand-on-dl/blob/master/openblas_installation.pdf 。
 4. 另外，若需要安裝 openblas 可至 https://drive.google.com/drive/folders/0ByfnsehogjWtbndTY3JncE95bjQ 下載 (謝謝 Chih-Fan)。
 
-## (optional) GPU 安裝 (CNN training 有 GPU 才能跑的快，需要新型的 NVIDIA 顯示卡 (至少 GTX 650))
-如以上的虛擬環境教學，但是原先安裝的 tensorflow 是 CPU 版本，需安裝 tensorflow GPU 版本
+## (optional) GPU 安裝 (train CNN 必須有 GPU 才能跑的快，需要新型的 NVIDIA 顯示卡，至少 GTX 650)
+若要使用 GPU 來訓練模型，必須完成以下步驟
+1. 安裝 gpu 版本的 tensorflow
+2. 安裝 CUDA
+3. 安裝 cuDNN
+
+### 如之前的教學，但是原先安裝的 tensorflow 是 CPU 版本，需進到虛擬環境中，安裝 tensorflow GPU 版本
 ```
 pip install tensorflow-gpu
 ```
