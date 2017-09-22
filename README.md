@@ -12,7 +12,7 @@ conda create --name myenv python=3.5 anaconda
 ```
 2. 建立完成後，輸入 acitvate myenv 啟動虛擬環境，並按照順序安裝 tensorflow 及 keras
 ```
-pip install tensorflow
+pip install tensorflow 
 pip install keras
 ```
 3. 下載 https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py 這份範例程式並執行測試。
@@ -34,12 +34,17 @@ python mnist_mlp.py
 3. 安裝 openblas，請依 https://github.com/tw-cmchang/hand-on-dl/blob/master/openblas_installation.pdf 。
 4. 另外，若需要安裝 openblas 可至 https://drive.google.com/drive/folders/0ByfnsehogjWtbndTY3JncE95bjQ 下載 (謝謝 Chih-Fan)。
 
-## (optional) GPU 安裝 (需要 NVIDIA 顯示卡)
+## (optional) GPU 安裝 (CNN training 有 GPU 才能跑的快，需要新型的 NVIDIA 顯示卡 (至少 GTX 650))
+如以上的虛擬環境教學，但是原先安裝的 tensorflow 是 CPU 版本，需安裝 tensorflow GPU 版本
+```
+pip install tensorflow-gpu
+```
+
 ### 在 Windows 10 安裝 CUDA & cuDNN 可以參考下列網址
-1. [安裝 CUDA&Theano](http://ankivil.com/installing-keras-theano-and-dependencies-on-windows-10/)
+1. [安裝 CUDA](http://ankivil.com/installing-keras-theano-and-dependencies-on-windows-10/)
 2. [安裝 cuDNN](http://ankivil.com/making-theano-faster-with-cudnn-and-cnmem-on-windows-10/)
 
-### 在 ubuntu 上安裝可以參考下列影片，建議安裝 CUDA 7.5
+### 在 ubuntu 上安裝可以參考下列影片
 * https://www.youtube.com/watch?v=wjByPfSFkBo
 
 ### 沒有 GPU 的折衷方案 (Windows 10, openBLAS CPU 加速)
