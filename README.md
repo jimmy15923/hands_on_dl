@@ -24,7 +24,16 @@ python mnist_mlp.py
 
 + 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: jimmy15923@iis.sinica.edu.tw。先謝謝大家的海涵，希望各位能在 9/27 上課前完成安裝流程，謝謝！
 
-## 下載程式、投影片
+## 下載程式、投影片及資料
+資料：
+執行以下的 code，會自動下載 CIFAR10 的資料
+```python
+from keras.datasets import cifar10
+(x_train, y_train), (x_test, y_test) = cifar10.load_data()
+```
+程式：
+TBA
+投影片：
 TBA
 
 ## (optional) 安裝運算加速庫
