@@ -54,8 +54,7 @@ pip install tensorflow-gpu
 ```
 
 ### 在 Windows 10 安裝 CUDA & cuDNN 可以參考下列網址
-1. [安裝 CUDA](http://ankivil.com/installing-keras-theano-and-dependencies-on-windows-10/)
-2. [安裝 cuDNN](http://ankivil.com/making-theano-faster-with-cudnn-and-cnmem-on-windows-10/)
+[於Win10環境下配置CUDA與cuDNN](https://rreadmorebooks.blogspot.tw/2017/04/win10cudacudnn.html)
 
 ### 在 ubuntu 上安裝可以參考下列影片
 * https://www.youtube.com/watch?v=wjByPfSFkBo
