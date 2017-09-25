@@ -30,6 +30,7 @@ from keras.datasets import cifar10
 ```
 程式：
 請使用 Git clone 或是按右上角的綠色按鈕 (Clone or download → Download ZIP)，下載成 ZIP 檔後並解壓縮
+
 投影片：
 [DL_inMLmonth_20170927.pdf](https://drive.google.com/file/d/0B6jc8Shz_UZVRUtESmIzV2RLYUk/view?usp=sharing)
 
