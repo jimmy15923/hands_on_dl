@@ -6,7 +6,7 @@
 ```
 
 0. [Anaconda 下載網址](https://www.anaconda.com/download/)，建議下載 3.6 版本
-1. 打開 CMD，輸入以下 code 建立名稱為 myenv 的虛擬環境 (名稱可自行設定喜歡的)
+1. **打開 Anaconda Prompt** (教學是開 CMD，建議使用 anacnoda prompt)，輸入以下 code 建立名稱為 myenv 的虛擬環境 (名稱可自行設定喜歡的)
 ```
 conda create --name myenv python=3.5 anaconda
 ```
