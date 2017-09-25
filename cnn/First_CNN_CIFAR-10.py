@@ -1,13 +1,6 @@
 
 # coding: utf-8
 
-# In[1]:
-
-
-get_ipython().magic('env CUDA_DEVICE_ORDER=PCI_BUS_ID')
-get_ipython().magic('env CUDA_VISIBLE_DEVICES = 0')
-
-
 # ## 將所有需要的套件與函數 import 至目前的環境中 
 # 若沒有執行下面這段 code，等等使用 function 就會看到 Name Error
 
