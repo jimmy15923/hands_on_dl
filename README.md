@@ -29,11 +29,9 @@ from keras.datasets import cifar10
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 ```
 程式：
-
-TBA
+請使用 Git clone 或是按右上角的綠色按鈕 (Clone or download → Download ZIP)，下載成 ZIP 檔後並解壓縮
 投影片：
-
-TBA
+[DL_inMLmonth_20170927.pdf](https://drive.google.com/file/d/0B6jc8Shz_UZVRUtESmIzV2RLYUk/view?usp=sharing)
 
 + 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: jimmy15923@iis.sinica.edu.tw。先謝謝大家的海涵，希望各位能在 9/27 上課前完成安裝流程，謝謝！
 
